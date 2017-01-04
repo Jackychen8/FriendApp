@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+body {
+  margin:  0;
+  padding: 0;
+  font-family: monospace;
+}
+
+header {
+  display: block;
+  height: 10vh;
+  overflow:  auto;
+  background-color: pink;
+  color: red;
+  font-size: 16px;
+}
+
+.compInput {
+  height: 90vh;
+  display: flex;
+}
+
+pre {
+  background-color: #f8f8f8;
+}
+
+pre, textarea {
+  width: 50%;
+  font-family: monospace;
+  font-size: 16px;
+  margin: 0;
+  padding: 10px;
+  color: #222;
+}
+
+textarea: focus {outline:0}
